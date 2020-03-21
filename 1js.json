@@ -1,0 +1,71 @@
+const myBiodata = () => {
+return {
+	'name': 'Salman Alfarisi',
+	'age' : 17,
+	'address' : 'Subang'
+	'hobbies' : ['reading', 'watching movies' , 'football', 'learning'],
+	'is_married' : false,
+	'list_school' : [
+		                {
+		                	name :'Sdit-Alfatih',
+		                	year_in : 2007,
+		                	year_out : 2013,
+		                	major : null
+                        },
+
+                        {
+                        	name : 'SMA Islam Terpadu Rahmatika-Alatsari',
+                            year_in: 2013,
+                            year_out:2016,
+                            major   : null
+                        },
+                        
+                        {
+                           name : 'Pondok Tahfidz Ibnu abbas'
+                           year_in : 2016,
+                           year_out : 2018,
+                           major   : 'Tahfidz'
+                        },
+                        
+                        {
+                           name : 'Akademi marketing Bisnishack Yogyakarta'
+                           year_in : 2019,
+                           year_out : 2020,
+                           major : 'Advertising'
+                        }
+                    ],
+    'skills' : [
+                     {
+                        skill_name : 'Facebook Ads'
+                        level      : 'advanced'
+                     },
+                     
+                     { 
+                       skill_name : 'Deal Maker'
+                       level      : 'expert'
+                     },   
+
+                     {
+                       skill_name : 'Tahfidz'                  
+                       level      : 'advanced'    
+                     },
+
+                     { skill_name : 'html & css'
+                       level      : 'Beginer'
+                     }
+                ],
+    "interest_in_coding" : true
+    }
+};                        
+
+console.log(myBiodata());
+
+
+
+
+
+
+
+
+
+
